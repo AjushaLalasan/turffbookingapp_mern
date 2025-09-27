@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen, fireEvent, waitFor } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { MemoryRouter } from "react-router-dom";
-import App from "../App";
+import App from "../App.jsx";
 
 jest.mock("../services/api", () => ({
   getBookings: jest.fn(),
